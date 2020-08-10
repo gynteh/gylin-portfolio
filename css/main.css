@@ -14,7 +14,13 @@ html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 article,aside,figcaption,figure,footer,header,main,menu,nav,section{display:block}
 
 
-a{background-color:transparent}a:active,a:hover{outline-width:0}
+a{
+    background-color:transparent
+}
+
+a:active,a:hover{
+    outline-width:0
+}
 
 b,strong{font-weight:bolder}dfn{font-style:italic}
 
@@ -29,14 +35,7 @@ button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[
 
 fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
 legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
-/*
-[type=checkbox],[type=radio]{padding:0}
-[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
-[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
-[type=search]::-webkit-search-decoration{-webkit-appearance:none}
-::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
-*/
-/* End extract */
+
 
 html,body{font-family:Verdana,sans-serif;font-size:20px;line-height:1.5}html{overflow-x:hidden}
 h1{font-size:36px}
@@ -132,7 +131,10 @@ p {padding: 10px;}
     padding-right: 4rem;
     min-height: 600px;
     text-align: left;
-    
+}
+
+.info a:link{
+    color: #E8F3F8;
 }
 
 
