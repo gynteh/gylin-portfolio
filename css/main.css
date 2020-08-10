@@ -164,6 +164,7 @@ p {padding: 10px;}
     padding: 30px 120px 0 120px;
 }
 
+/*
 .photo {
   grid-area: photo;
 }
@@ -172,6 +173,7 @@ p {padding: 10px;}
   object-fit: cover;
   width: 100%
 }
+*/
 
 
 .fa {
